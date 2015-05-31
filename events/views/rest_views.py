@@ -5,7 +5,9 @@ from django.shortcuts import get_object_or_404
 
 from geopy.distance import great_circle
 
-from events.api.serializers import EeventSerializer, InstanceSerializer
+from events.api.serializers import (
+    EeventSerializer, InstanceSerializer)
+
 from events.models import Eevent, Einstance, Place
 
 from rest_framework import viewsets
@@ -29,7 +31,7 @@ class EventViewSet(viewsets.ModelViewSet):
         renderer_classes += (BrowsableAPIRenderer,)
 
     @list_route()
-    def list(self, request):
+    def eventlist(self, request):
         if request.method == 'GET':
             category = request.GET.get('category', '')
         queryset = self.queryset
@@ -52,15 +54,15 @@ class EventViewSet(viewsets.ModelViewSet):
                                       context={'request': request})
         return Response(serializer.data)
 
-    # def crea_te(self, request):
-    #     data = request.DATA
-    #     event = Eevent()
-    #     serializer = EeventSerializer(event, data=data)
-    #     serializer.is_valid()
-    #     serializer.save()
-    #     headers = self.get_success_headers(serializer.data)
-    #     return Response(serializer.data, status=status.HTTP_201_CREATED,
-    #                     headers=headers)
+    def crea_te(self, request):
+        data = request.DATA
+        event = Eevent()
+        serializer = EeventSerializer(event, data=data)
+        serializer.is_valid()
+        serializer.save()
+        headers = self.get_success_headers(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED,
+                        headers=headers)
 
     def update(self, request, pk=None):
         eevent = self.queryset.get(pk=pk)
@@ -131,6 +133,3 @@ class GeoViewSet(viewsets.ModelViewSet):
 
         serializer = self.get_serializer(queryset, many=True)
         return Response(serializer.data)
-
-    def create(self, request):
-        pass
