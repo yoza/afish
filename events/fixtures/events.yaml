@@ -1,0 +1,1204 @@
+-   fields: {app_label: admin, model: logentry}
+    model: contenttypes.contenttype
+    pk: 1
+-   fields: {app_label: auth, model: permission}
+    model: contenttypes.contenttype
+    pk: 2
+-   fields: {app_label: auth, model: group}
+    model: contenttypes.contenttype
+    pk: 3
+-   fields: {app_label: auth, model: user}
+    model: contenttypes.contenttype
+    pk: 4
+-   fields: {app_label: contenttypes, model: contenttype}
+    model: contenttypes.contenttype
+    pk: 5
+-   fields: {app_label: sessions, model: session}
+    model: contenttypes.contenttype
+    pk: 6
+-   fields: {app_label: events, model: category}
+    model: contenttypes.contenttype
+    pk: 7
+-   fields: {app_label: events, model: city}
+    model: contenttypes.contenttype
+    pk: 8
+-   fields: {app_label: events, model: place}
+    model: contenttypes.contenttype
+    pk: 9
+-   fields: {app_label: events, model: einstance}
+    model: contenttypes.contenttype
+    pk: 10
+-   fields: {app_label: events, model: eevent}
+    model: contenttypes.contenttype
+    pk: 11
+-   fields: {expire_date: ! '2015-06-13 14:31:47.901626+00:00', session_data: Y2M1ODI3MzFlMjAwMzY5MDgzMGJjNWU3YjFlMjM0NDIwNWEwYzA3Mjp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg3NjM5YTQwNTI0YWEzODg2NWUxMGQ1MmQ5OGJhOGU3ODc5MTJhMzIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=}
+    model: sessions.session
+    pk: bnsd2lhjsyer4tyyilsau9hyu5l5ap29
+-   fields: {expire_date: ! '2015-06-13 19:46:54.714766+00:00', session_data: NjE4ZDk2NjBlMjg0ZGRlNGRkZTQ0ZjFmYTE0ODllNzg0NGEyMWI2NDp7Il9hdXRoX3VzZXJfaGFzaCI6Ijg3NjM5YTQwNTI0YWEzODg2NWUxMGQ1MmQ5OGJhOGU3ODc5MTJhMzIiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=}
+    model: sessions.session
+    pk: hnjg9o6yxlfwcrxuo3u4p2yonjvs6q7z
+-   fields: {name: first category}
+    model: events.category
+    pk: 1
+-   fields: {name: second category}
+    model: events.category
+    pk: 2
+-   fields: {name: best category}
+    model: events.category
+    pk: 3
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 1
+-   fields: {name: Calgary}
+    model: events.city
+    pk: 2
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 3
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 4
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 5
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 6
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 7
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 8
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 9
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 10
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 11
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 12
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 13
+-   fields: {name: Montreal}
+    model: events.city
+    pk: 14
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 15
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 16
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 17
+-   fields: {name: Toronto}
+    model: events.city
+    pk: 18
+-   fields: {city: 1, lat: 43.6434586, long: -79.3790963, name: Air Canada Center}
+    model: events.place
+    pk: 1
+-   fields: {city: 2, lat: 51.0374336, long: -114.0519341, name: Scotiabank Saddledome}
+    model: events.place
+    pk: 2
+-   fields: {city: 1, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 3
+-   fields: {city: 4, lat: null, long: null, name: Scotiabank Saddledome}
+    model: events.place
+    pk: 4
+-   fields: {city: 5, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 5
+-   fields: {city: 6, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 6
+-   fields: {city: 7, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 7
+-   fields: {city: 8, lat: null, long: null, name: Scotiabank Saddledome}
+    model: events.place
+    pk: 8
+-   fields: {city: 9, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 9
+-   fields: {city: 10, lat: null, long: null, name: Scotiabank Saddledome}
+    model: events.place
+    pk: 10
+-   fields: {city: 11, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 11
+-   fields: {city: 12, lat: null, long: null, name: Scotiabank Saddledome}
+    model: events.place
+    pk: 12
+-   fields: {city: 13, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 13
+-   fields: {city: 1, lat: 43.6434586, long: -79.3790963, name: Air Canada Center}
+    model: events.place
+    pk: 14
+-   fields: {city: 14, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 15
+-   fields: {city: 15, lat: 43.6434586, long: -79.3790963, name: Air Canada Center}
+    model: events.place
+    pk: 16
+-   fields: {city: 17, lat: 43.6434586, long: -79.3790963, name: Air Canada Center}
+    model: events.place
+    pk: 17
+-   fields: {city: 18, lat: -20.2078723, long: 57.4880594, name: La Licorne}
+    model: events.place
+    pk: 18
+-   fields: {category: 1, description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing
+            elit. Aenean iaculis. Etiam auctor massa sed purus bibendum mattis. Sed
+            sem orci, gravida sed, feugiat et, ullamcorper non, quam. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus
+            mauris ante, tincidunt iaculis, convallis semper, interdum at, eros. Pellentesque
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Etiam sit amet massa non odio vestibulum aliquet. Sed scelerisque.
+            Donec quis dolor. Aenean ipsum. Praesent magna eros, posuere nec, adipiscing
+            vel, aliquam blandit, dolor. Nulla justo sem, malesuada et, ultricies
+            sit amet, tempus vel, dui. Mauris laoreet lacus egestas sem. Cras facilisis
+            leo quis orci. Phasellus vel ante quis sapien scelerisque sollicitudin.
+            Nullam dolor quam, pellentesque et, consequat non, venenatis eu, nibh.
+            Suspendisse potenti. Fusce in nisl ac massa laoreet malesuada. Mauris
+            aliquet cursus nunc.', title: Event first and more}
+    model: events.eevent
+    pk: 1
+-   fields: {category: 2, description: 'Donec suscipit auctor lectus. Sed dui erat,
+            gravida ut, ultrices quis, laoreet in, pede. Etiam velit. Vestibulum volutpat
+            consectetuer lacus. Nam diam. Nunc commodo. Pellentesque mattis tincidunt
+            tellus. Proin aliquet, purus quis euismod volutpat, ante massa ullamcorper
+            libero, vel vestibulum lectus mi ac ligula. In risus turpis, posuere vel,
+            sollicitudin vel, blandit fermentum, dolor. Aliquam condimentum accumsan
+            est. Ut velit ipsum, sollicitudin vestibulum, bibendum a, interdum sed,
+            nisi. Sed condimentum pede sit amet diam. Fusce quam pede, viverra cursus,
+            faucibus eget, imperdiet ac, neque. Sed dignissim orci id nunc. Pellentesque
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Proin ultricies lorem non dui. Donec augue.', title: Event second}
+    model: events.eevent
+    pk: 2
+-   fields: {category: 3, description: 'Mauris libero libero, volutpat non, consequat
+            ac, laoreet nec, sapien. Vestibulum ante ipsum primis in faucibus orci
+            luctus et ultrices posuere cubilia Curae; Quisque nisi massa, adipiscing
+            ornare, vehicula eu, fringilla eget, purus. Proin dapibus sapien vulputate
+            lectus convallis sollicitudin. Aenean ipsum magna, feugiat sed, consequat
+            quis, mattis eget, tellus. Pellentesque porttitor volutpat arcu. Pellentesque
+            eu odio non orci pharetra consequat. Proin suscipit, lacus non dictum
+            suscipit, enim dolor ornare lorem, non ullamcorper dolor urna id elit.
+            Curabitur a metus. Pellentesque fermentum purus et nulla. Proin tristique.
+            Curabitur commodo faucibus elit.', title: Metallica Tour}
+    model: events.eevent
+    pk: 3
+-   fields: {category: 3, description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing
+            elit. Aenean iaculis. Etiam auctor massa sed purus bibendum mattis. Sed
+            sem orci, gravida sed, feugiat et, ullamcorper non, quam. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus
+            mauris ante, tincidunt iaculis, convallis semper, interdum at, eros. Pellentesque
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Etiam sit amet massa non odio vestibulum aliquet. Sed scelerisque.
+            Donec quis dolor. Aenean ipsum. Praesent magna eros, posuere nec, adipiscing
+            vel, aliquam blandit, dolor. Nulla justo sem, malesuada et, ultricies
+            sit amet, tempus vel, dui. Mauris laoreet lacus egestas sem. Cras facilisis
+            leo quis orci. Phasellus vel ante quis sapien scelerisque sollicitudin.
+            Nullam dolor quam, pellentesque et, consequat non, venenatis eu, nibh.
+            Suspendisse potenti. Fusce in nisl ac massa laoreet malesuada. Mauris
+            aliquet cursus nunc.', title: "\u041F\u0440\u043E\u0441\u0442\u043E\u0435
+            \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435"}
+    model: events.eevent
+    pk: 34
+-   fields: {category: null, description: null, title: wwwww}
+    model: events.eevent
+    pk: 50
+-   fields: {category: null, description: null, title: qq}
+    model: events.eevent
+    pk: 51
+-   fields: {category: null, description: null, title: www}
+    model: events.eevent
+    pk: 52
+-   fields: {category: null, description: null, title: www}
+    model: events.eevent
+    pk: 53
+-   fields: {category: null, description: eerfrfrfrf, title: Qrecipes}
+    model: events.eevent
+    pk: 54
+-   fields: {category: null, description: qqqq, title: tesr}
+    model: events.eevent
+    pk: 55
+-   fields: {category: null, description: qqqq, title: tesr}
+    model: events.eevent
+    pk: 56
+-   fields: {category: null, description: sssss, title: sss}
+    model: events.eevent
+    pk: 57
+-   fields: {category: null, description: null, title: Event POST}
+    model: events.eevent
+    pk: 58
+-   fields: {category: null, description: some text, title: Super puper}
+    model: events.eevent
+    pk: 59
+-   fields: {category: 1, description: wswswssws, title: let read}
+    model: events.eevent
+    pk: 60
+-   fields: {category: 3, description: text text, title: Another poster event}
+    model: events.eevent
+    pk: 61
+-   fields: {category: null, description: rkrkrkkrkrkrkrkrkkr, title: test test}
+    model: events.eevent
+    pk: 62
+-   fields: {category: null, description: raw text, title: tram tararam}
+    model: events.eevent
+    pk: 64
+-   fields: {category: null, description: wswswssws, title: let read}
+    model: events.eevent
+    pk: 65
+-   fields: {category: null, description: dddddddd, title: dddddd}
+    model: events.eevent
+    pk: 66
+-   fields: {eevent: 2, end: null, place: 3, start: ! '2015-06-10 22:00:00+00:00'}
+    model: events.einstance
+    pk: 2
+-   fields: {eevent: 3, end: null, place: 1, start: ! '2015-08-06 20:00:00+00:00'}
+    model: events.einstance
+    pk: 3
+-   fields: {eevent: null, end: null, place: null, start: ! '2015-05-29 00:57:33+00:00'}
+    model: events.einstance
+    pk: 6
+-   fields: {eevent: null, end: null, place: null, start: ! '2015-05-29 00:57:33+00:00'}
+    model: events.einstance
+    pk: 7
+-   fields: {eevent: 34, end: null, place: 2, start: ! '2015-05-30 01:05:27+00:00'}
+    model: events.einstance
+    pk: 14
+-   fields: {eevent: 64, end: null, place: 7, start: ! '2015-06-10 22:00:00+00:00'}
+    model: events.einstance
+    pk: 18
+-   fields: {eevent: 61, end: null, place: 2, start: ! '2015-05-30 20:21:28+00:00'}
+    model: events.einstance
+    pk: 25
+-   fields: {eevent: 60, end: null, place: 13, start: ! '2015-05-30 20:21:42+00:00'}
+    model: events.einstance
+    pk: 26
+-   fields: {eevent: 64, end: ! '2015-05-31 01:56:18+00:00', place: 4, start: ! '2015-05-31
+            01:56:18+00:00'}
+    model: events.einstance
+    pk: 27
+-   fields: {eevent: 64, end: ! '2015-05-31 01:56:18+00:00', place: 6, start: ! '2015-05-31
+            01:56:18+00:00'}
+    model: events.einstance
+    pk: 28
+-   fields: {eevent: 64, end: ! '2015-05-31 01:56:18+00:00', place: 7, start: ! '2015-05-31
+            01:56:18+00:00'}
+    model: events.einstance
+    pk: 29
+-   fields: {eevent: 65, end: null, place: 15, start: ! '2015-05-30 20:21:42+00:00'}
+    model: events.einstance
+    pk: 30
+-   fields: {eevent: 66, end: null, place: 16, start: ! '2015-08-06 20:00:00+00:00'}
+    model: events.einstance
+    pk: 31
+-   fields:
+        codename: add_logentry
+        content_type: [admin, logentry]
+        name: Can add log entry
+    model: auth.permission
+    pk: 1
+-   fields:
+        codename: change_logentry
+        content_type: [admin, logentry]
+        name: Can change log entry
+    model: auth.permission
+    pk: 2
+-   fields:
+        codename: delete_logentry
+        content_type: [admin, logentry]
+        name: Can delete log entry
+    model: auth.permission
+    pk: 3
+-   fields:
+        codename: add_permission
+        content_type: [auth, permission]
+        name: Can add permission
+    model: auth.permission
+    pk: 4
+-   fields:
+        codename: change_permission
+        content_type: [auth, permission]
+        name: Can change permission
+    model: auth.permission
+    pk: 5
+-   fields:
+        codename: delete_permission
+        content_type: [auth, permission]
+        name: Can delete permission
+    model: auth.permission
+    pk: 6
+-   fields:
+        codename: add_group
+        content_type: [auth, group]
+        name: Can add group
+    model: auth.permission
+    pk: 7
+-   fields:
+        codename: change_group
+        content_type: [auth, group]
+        name: Can change group
+    model: auth.permission
+    pk: 8
+-   fields:
+        codename: delete_group
+        content_type: [auth, group]
+        name: Can delete group
+    model: auth.permission
+    pk: 9
+-   fields:
+        codename: add_user
+        content_type: [auth, user]
+        name: Can add user
+    model: auth.permission
+    pk: 10
+-   fields:
+        codename: change_user
+        content_type: [auth, user]
+        name: Can change user
+    model: auth.permission
+    pk: 11
+-   fields:
+        codename: delete_user
+        content_type: [auth, user]
+        name: Can delete user
+    model: auth.permission
+    pk: 12
+-   fields:
+        codename: add_contenttype
+        content_type: [contenttypes, contenttype]
+        name: Can add content type
+    model: auth.permission
+    pk: 13
+-   fields:
+        codename: change_contenttype
+        content_type: [contenttypes, contenttype]
+        name: Can change content type
+    model: auth.permission
+    pk: 14
+-   fields:
+        codename: delete_contenttype
+        content_type: [contenttypes, contenttype]
+        name: Can delete content type
+    model: auth.permission
+    pk: 15
+-   fields:
+        codename: add_session
+        content_type: [sessions, session]
+        name: Can add session
+    model: auth.permission
+    pk: 16
+-   fields:
+        codename: change_session
+        content_type: [sessions, session]
+        name: Can change session
+    model: auth.permission
+    pk: 17
+-   fields:
+        codename: delete_session
+        content_type: [sessions, session]
+        name: Can delete session
+    model: auth.permission
+    pk: 18
+-   fields:
+        codename: add_category
+        content_type: [events, category]
+        name: Can add category
+    model: auth.permission
+    pk: 19
+-   fields:
+        codename: change_category
+        content_type: [events, category]
+        name: Can change category
+    model: auth.permission
+    pk: 20
+-   fields:
+        codename: delete_category
+        content_type: [events, category]
+        name: Can delete category
+    model: auth.permission
+    pk: 21
+-   fields:
+        codename: add_city
+        content_type: [events, city]
+        name: Can add city
+    model: auth.permission
+    pk: 22
+-   fields:
+        codename: change_city
+        content_type: [events, city]
+        name: Can change city
+    model: auth.permission
+    pk: 23
+-   fields:
+        codename: delete_city
+        content_type: [events, city]
+        name: Can delete city
+    model: auth.permission
+    pk: 24
+-   fields:
+        codename: add_place
+        content_type: [events, place]
+        name: Can add place
+    model: auth.permission
+    pk: 25
+-   fields:
+        codename: change_place
+        content_type: [events, place]
+        name: Can change place
+    model: auth.permission
+    pk: 26
+-   fields:
+        codename: delete_place
+        content_type: [events, place]
+        name: Can delete place
+    model: auth.permission
+    pk: 27
+-   fields:
+        codename: add_einstance
+        content_type: [events, einstance]
+        name: Can add instance
+    model: auth.permission
+    pk: 28
+-   fields:
+        codename: change_einstance
+        content_type: [events, einstance]
+        name: Can change instance
+    model: auth.permission
+    pk: 29
+-   fields:
+        codename: delete_einstance
+        content_type: [events, einstance]
+        name: Can delete instance
+    model: auth.permission
+    pk: 30
+-   fields:
+        codename: add_eevent
+        content_type: [events, eevent]
+        name: Can add event
+    model: auth.permission
+    pk: 31
+-   fields:
+        codename: change_eevent
+        content_type: [events, eevent]
+        name: Can change event
+    model: auth.permission
+    pk: 32
+-   fields:
+        codename: delete_eevent
+        content_type: [events, eevent]
+        name: Can delete event
+    model: auth.permission
+    pk: 33
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:30:24.897353+00:00
+        change_message: ''
+        content_type: [events, category]
+        object_id: '1'
+        object_repr: first category
+        user: [olegas]
+    model: admin.logentry
+    pk: 1
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:31:51.262385+00:00
+        change_message: ''
+        content_type: [events, category]
+        object_id: '2'
+        object_repr: second category
+        user: [olegas]
+    model: admin.logentry
+    pk: 2
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-29 00:31:54.756315+00:00
+        change_message: No fields changed.
+        content_type: [events, category]
+        object_id: '2'
+        object_repr: second category
+        user: [olegas]
+    model: admin.logentry
+    pk: 3
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:32:08.941691+00:00
+        change_message: ''
+        content_type: [events, category]
+        object_id: '3'
+        object_repr: best category
+        user: [olegas]
+    model: admin.logentry
+    pk: 4
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:32:40.922787+00:00
+        change_message: ''
+        content_type: [events, city]
+        object_id: '1'
+        object_repr: Toronto
+        user: [olegas]
+    model: admin.logentry
+    pk: 5
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:33:37.730155+00:00
+        change_message: ''
+        content_type: [events, city]
+        object_id: '2'
+        object_repr: Calgary
+        user: [olegas]
+    model: admin.logentry
+    pk: 6
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:34:22.238773+00:00
+        change_message: ''
+        content_type: [events, city]
+        object_id: '3'
+        object_repr: Montreal
+        user: [olegas]
+    model: admin.logentry
+    pk: 7
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:39:04.159410+00:00
+        change_message: ''
+        content_type: [events, place]
+        object_id: '1'
+        object_repr: Air Canada Center
+        user: [olegas]
+    model: admin.logentry
+    pk: 8
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-29 00:44:58.017215+00:00
+        change_message: No fields changed.
+        content_type: [events, place]
+        object_id: '1'
+        object_repr: Air Canada Center
+        user: [olegas]
+    model: admin.logentry
+    pk: 9
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-29 00:46:25.486479+00:00
+        change_message: No fields changed.
+        content_type: [events, place]
+        object_id: '1'
+        object_repr: Air Canada Center
+        user: [olegas]
+    model: admin.logentry
+    pk: 10
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:48:08.720827+00:00
+        change_message: ''
+        content_type: [events, place]
+        object_id: '2'
+        object_repr: Scotiabank Saddledome
+        user: [olegas]
+    model: admin.logentry
+    pk: 11
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-29 00:49:24.060534+00:00
+        change_message: No fields changed.
+        content_type: [events, place]
+        object_id: '2'
+        object_repr: Scotiabank Saddledome
+        user: [olegas]
+    model: admin.logentry
+    pk: 12
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:49:34.565318+00:00
+        change_message: ''
+        content_type: [events, place]
+        object_id: '3'
+        object_repr: La Licorne
+        user: [olegas]
+    model: admin.logentry
+    pk: 13
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 00:59:32.967759+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '1'
+        object_repr: Event first
+        user: [olegas]
+    model: admin.logentry
+    pk: 14
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 01:00:47.906381+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '2'
+        object_repr: Event second
+        user: [olegas]
+    model: admin.logentry
+    pk: 15
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 01:01:53.150820+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '3'
+        object_repr: Event best
+        user: [olegas]
+    model: admin.logentry
+    pk: 16
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-29 01:10:32.791658+00:00
+        change_message: Changed title.
+        content_type: [events, eevent]
+        object_id: '3'
+        object_repr: Metallica Tour
+        user: [olegas]
+    model: admin.logentry
+    pk: 17
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-29 15:57:10.422131+00:00
+        change_message: Added instance "Einstance object".
+        content_type: [events, eevent]
+        object_id: '1'
+        object_repr: Event first
+        user: [olegas]
+    model: admin.logentry
+    pk: 18
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-29 21:21:42.784424+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '4'
+        object_repr: test
+        user: [olegas]
+    model: admin.logentry
+    pk: 19
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 22:07:37.357347+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '6'
+        object_repr: test
+        user: [olegas]
+    model: admin.logentry
+    pk: 20
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 22:07:37.363222+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '5'
+        object_repr: test
+        user: [olegas]
+    model: admin.logentry
+    pk: 21
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.733684+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '9'
+        object_repr: dar
+        user: [olegas]
+    model: admin.logentry
+    pk: 22
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.739402+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '8'
+        object_repr: dar
+        user: [olegas]
+    model: admin.logentry
+    pk: 23
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.740586+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '12'
+        object_repr: ddd
+        user: [olegas]
+    model: admin.logentry
+    pk: 24
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.741660+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '29'
+        object_repr: dffdffvffv
+        user: [olegas]
+    model: admin.logentry
+    pk: 25
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.742765+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '28'
+        object_repr: dffdffvffv
+        user: [olegas]
+    model: admin.logentry
+    pk: 26
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.743840+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '27'
+        object_repr: dffdffvffv
+        user: [olegas]
+    model: admin.logentry
+    pk: 27
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.744891+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '26'
+        object_repr: dffdffvffv
+        user: [olegas]
+    model: admin.logentry
+    pk: 28
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.745847+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '25'
+        object_repr: dffdffvffv
+        user: [olegas]
+    model: admin.logentry
+    pk: 29
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.746771+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '10'
+        object_repr: dun
+        user: [olegas]
+    model: admin.logentry
+    pk: 30
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.747693+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '20'
+        object_repr: qqqq
+        user: [olegas]
+    model: admin.logentry
+    pk: 31
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.748676+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '19'
+        object_repr: qqqq
+        user: [olegas]
+    model: admin.logentry
+    pk: 32
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.749764+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '7'
+        object_repr: rest
+        user: [olegas]
+    model: admin.logentry
+    pk: 33
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.750850+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '14'
+        object_repr: ter
+        user: [olegas]
+    model: admin.logentry
+    pk: 34
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.751897+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '13'
+        object_repr: ter
+        user: [olegas]
+    model: admin.logentry
+    pk: 35
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.753158+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '18'
+        object_repr: vvvvv
+        user: [olegas]
+    model: admin.logentry
+    pk: 36
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.754411+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '17'
+        object_repr: vvvvv
+        user: [olegas]
+    model: admin.logentry
+    pk: 37
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.755677+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '11'
+        object_repr: www
+        user: [olegas]
+    model: admin.logentry
+    pk: 38
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.756925+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '24'
+        object_repr: wwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 39
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.758157+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '23'
+        object_repr: wwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 40
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.759424+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '22'
+        object_repr: wwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 41
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.760696+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '21'
+        object_repr: wwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 42
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.761934+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '16'
+        object_repr: wwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 43
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.763196+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '15'
+        object_repr: wwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 44
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:17:07.764441+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '30'
+        object_repr: wwwww
+        user: [olegas]
+    model: admin.logentry
+    pk: 45
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.342635+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '39'
+        object_repr: 2www
+        user: [olegas]
+    model: admin.logentry
+    pk: 46
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.345739+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '32'
+        object_repr: '33333'
+        user: [olegas]
+    model: admin.logentry
+    pk: 47
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.346837+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '31'
+        object_repr: '33333'
+        user: [olegas]
+    model: admin.logentry
+    pk: 48
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.347844+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '38'
+        object_repr: aaaa
+        user: [olegas]
+    model: admin.logentry
+    pk: 49
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.348864+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '37'
+        object_repr: aaaa
+        user: [olegas]
+    model: admin.logentry
+    pk: 50
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.349882+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '35'
+        object_repr: Event first
+        user: [olegas]
+    model: admin.logentry
+    pk: 51
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.351410+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '40'
+        object_repr: qqq
+        user: [olegas]
+    model: admin.logentry
+    pk: 52
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.352408+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '36'
+        object_repr: sssss
+        user: [olegas]
+    model: admin.logentry
+    pk: 53
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-29 23:37:56.354534+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '33'
+        object_repr: swss
+        user: [olegas]
+    model: admin.logentry
+    pk: 54
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-30 00:30:00.682055+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '46'
+        object_repr: ''
+        user: [olegas]
+    model: admin.logentry
+    pk: 55
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-30 00:30:00.685148+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '45'
+        object_repr: 1sss
+        user: [olegas]
+    model: admin.logentry
+    pk: 56
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-30 00:30:00.686191+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '41'
+        object_repr: eee
+        user: [olegas]
+    model: admin.logentry
+    pk: 57
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-30 00:30:00.687191+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '42'
+        object_repr: sss
+        user: [olegas]
+    model: admin.logentry
+    pk: 58
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-30 00:30:00.688209+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '44'
+        object_repr: www
+        user: [olegas]
+    model: admin.logentry
+    pk: 59
+-   fields:
+        action_flag: 3
+        action_time: 2015-05-30 00:30:00.689233+00:00
+        change_message: ''
+        content_type: [events, eevent]
+        object_id: '43'
+        object_repr: www
+        user: [olegas]
+    model: admin.logentry
+    pk: 60
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-30 01:05:27.137926+00:00
+        change_message: Changed category.
+        content_type: [events, eevent]
+        object_id: '34'
+        object_repr: Event firstqqq
+        user: [olegas]
+    model: admin.logentry
+    pk: 61
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-30 01:05:35.477605+00:00
+        change_message: Added instance "Einstance object".
+        content_type: [events, eevent]
+        object_id: '34'
+        object_repr: Event firstqqq
+        user: [olegas]
+    model: admin.logentry
+    pk: 62
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-30 20:20:57.230176+00:00
+        change_message: Changed title.
+        content_type: [events, eevent]
+        object_id: '61'
+        object_repr: Another poster event
+        user: [olegas]
+    model: admin.logentry
+    pk: 63
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-30 20:21:38.322030+00:00
+        change_message: Changed category. Added instance "Einstance object".
+        content_type: [events, eevent]
+        object_id: '61'
+        object_repr: Another poster event
+        user: [olegas]
+    model: admin.logentry
+    pk: 64
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-30 20:22:44.763448+00:00
+        change_message: Changed title, description and category. Added instance "Einstance
+            object".
+        content_type: [events, eevent]
+        object_id: '60'
+        object_repr: let read
+        user: [olegas]
+    model: admin.logentry
+    pk: 65
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-31 01:39:07.751884+00:00
+        change_message: No fields changed.
+        content_type: [events, place]
+        object_id: '1'
+        object_repr: Air Canada Center
+        user: [olegas]
+    model: admin.logentry
+    pk: 66
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-31 01:43:55.056618+00:00
+        change_message: Changed city.
+        content_type: [events, place]
+        object_id: '3'
+        object_repr: La Licorne
+        user: [olegas]
+    model: admin.logentry
+    pk: 67
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-31 01:44:02.437411+00:00
+        change_message: Changed city.
+        content_type: [events, place]
+        object_id: '3'
+        object_repr: La Licorne
+        user: [olegas]
+    model: admin.logentry
+    pk: 68
+-   fields:
+        action_flag: 1
+        action_time: 2015-05-31 01:44:37.970181+00:00
+        change_message: ''
+        content_type: [events, place]
+        object_id: '14'
+        object_repr: Air Canada Center
+        user: [olegas]
+    model: admin.logentry
+    pk: 69
+-   fields:
+        action_flag: 2
+        action_time: 2015-05-31 01:56:34.855739+00:00
+        change_message: Added instance "tram tararam". Added instance "tram tararam".
+            Added instance "tram tararam".
+        content_type: [events, eevent]
+        object_id: '64'
+        object_repr: tram tararam
+        user: [olegas]
+    model: admin.logentry
+    pk: 70

@@ -2,3 +2,5 @@ Django==1.8.2
 djangorestframework==3.1.2
 geopy==1.10.0
 psycopg2==2.6
+pyaml==15.5.7
+PyYAML==3.11
