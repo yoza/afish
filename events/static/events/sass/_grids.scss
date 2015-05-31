@@ -1,0 +1,77 @@
+// Requirements
+// ============
+
+@import "susy";
+
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+);
+
+@import "susy";
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: 999px,
+  container-position: center,
+  columns: 12,
+  gutters: .25,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+
+$breakpoint-kind-of-wide: min-width 500px;
+
+$breakpoint-common: (max-width: 520px), (orientation: portrait);
+
+
+// ---------------------------------------------------------------------------
+
+$small-font-size        : 12px;
+$min-font-size          : 14px;
+$base-font-size         : 16px;
+$middle-font-size       : 18px;
+$big-font-size          : 20px;
+$max-font-size          : 24px;
+
+$h1-font-size           : $max-font-size;
+$h2-font-size           : $big-font-size;
+$h3-font-size           : $middle-font-size;
+$h4-font-size           : $base-font-size;
+
+$gicon-font-size        : $max-font-size;
+// ---------------------------------------------------------------------------
+$white-color            : #FFFFFF;
+$dark-grey-color        : #555555;
+$light-grey-color       : #DFDFDF;
+$red-color              : #FF4E4E;
+
+$plain-text-color       : #504F4F;
+$base-color             : #111111;
+$anhor-color            : #0877C0;
+$label-color            : #333333;
+
+$base-background-color  : $white-color;
+
+// ---------------------------------------------------------------------------
+
+$default-font-family    : unquote("Arial, Tahoma, Verdana");

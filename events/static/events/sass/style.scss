@@ -1,0 +1,31 @@
+// Screen
+// ======
+@import "compass/reset";
+@import "grids";
+@import "compass/layout.scss";
+@import "compass/css3/box-sizing";
+@import "compass/css3/user-interface";
+
+@include sticky-footer(80px, "#layout", ".footer-compensator", "#footer");
+
+.bodycenter {
+    @include user-select(none);
+  color: $base-color;
+  font-family: $default-font-family;
+  font-size: $base-font-size;
+  line-height: 1.33;
+  h1 {
+    font-size: $h1-font-size;
+  }
+  h2 {
+    font-size: $h2-font-size;
+  }
+  h3 {
+    font-size: $h3-font-size;
+  }
+
+  #layout {
+    @include container();
+    @import "schema/content";
+  }
+}

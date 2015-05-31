@@ -1,0 +1,69 @@
+.wrap-content {
+  position: relative;
+  margin-top: 200px;
+  #poster-container {
+    position: relative;
+    .events {
+      position: relative;
+      .events-wrap {
+        border: solid 1px $dark-grey-color;
+        display: flex;
+        flex-flow: row;
+        flex-direction: row;
+        margin-bottom: 20px;
+        .events-list {
+          min-width: 250px;
+          padding-right: 10px;
+          flex: 1 1 auto;
+          order: 0;
+          padding: 10px;
+          LI {
+            padding: 5px;
+            cursor: pointer;
+            &:hover,
+            &.active {
+              background-color: $light-grey-color;
+              cursor: default;
+            }
+          }
+
+        }
+        .event-details {
+          padding: 10px;
+          position: relative;
+          z-index: 5;
+          background-color: $base-background-color;
+          flex: 3 1 auto;
+          order: 1;
+          TABLE {
+            width: 100%;
+            margin-top: 10px;
+            TR {
+              border-left: solid 1px $dark-grey-color;
+              border-top: solid 1px $dark-grey-color;
+            }
+            TD {
+              border-right: solid 1px $dark-grey-color;
+              border-bottom: solid 1px $dark-grey-color;
+              padding: 5px;
+            }
+          }
+        }
+      }
+      .pagination {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        A.page {
+          cursor: pointer;
+          color: $anhor-color;
+          padding: 0 10px;
+        }
+        SPAN {
+          color: $label-color;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

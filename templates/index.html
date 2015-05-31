@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Eposter</title>
+  <link rel="stylesheet" href="static/events/css/style.css">
+  <script type="text/javascript" src="static/events/js/react.js"></script>
+  <script type="text/javascript" src="static/events/js/JSXTransformer.js"></script>
+  <script type="text/javascript" src="static/events/js/jquery.js"></script>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bodycenter">
+  <div id='layout'>
+    <div class="wrap-content">
+      <div id='poster-container'></div>
+      <div class='footer-compensator'>&nbsp;</div>
+    </div>
+    <script type="text/jsx" src="static/events/js/eposter.jsx"></script>
+    <footer id="footer">
+      {% block site-footer %}{% endblock %}
+    </footer>
+  </div>
+</body>
+</html>
